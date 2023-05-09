@@ -41,8 +41,8 @@ Para realizar operaciones en la API se debe incluir el token de autenticación e
 
  
 ## Endpoints
-### Para cada Endpoints usar Authorization: Bearer {token} donde el token fue obtenido por/authenticate
-### Además se debe establecer el encabezado Content-Type  y Value application/json
+#### Para cada Endpoints usar Authorization: Bearer {token} donde el token fue obtenido por/authenticate
+#### Además se debe establecer el encabezado Content-Type  y Value application/json
 
 ### Los Endpoints de la API son los siguientes:
 
