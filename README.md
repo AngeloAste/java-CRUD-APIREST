@@ -59,6 +59,8 @@ Para crear un usuario se debe realizar una solicitud **POST** a la siguiente URL
 
 **/api/users**
 
+![Paso-5](https://user-images.githubusercontent.com/110312875/236975061-bb4347b2-9e80-4b61-bf26-f68d21cb47e8.png)
+
 El cuerpo de la solicitud debe contener un objeto JSON con los campos **email, name, password y phones**. El campo **phones** debe ser una lista de objetos JSON con el campo **number**.
 
 La respuesta será un objeto JSON con los campos **id, created, modified y token**.
