@@ -17,6 +17,8 @@ La generación del token de autenticación se realiza mediante una solicitud POS
 **/auth**
 
 Generalmente se usa  http://localhost:8080/auth
+** En la pestaña "Headers"  debe establecerse El encabezado Content-Type  y Value   application/json**
+![paso-0](https://user-images.githubusercontent.com/110312875/236974093-f68eacda-686d-44ad-a1f8-88dfa1313833.png)
 
 **Usar siguiente body**
 
@@ -26,6 +28,8 @@ Generalmente se usa  http://localhost:8080/auth
 }**
 
 La respuesta será un objeto JSON con el campo token que contiene el token de autenticación.
+
+![paso-1](https://user-images.githubusercontent.com/110312875/236974214-8aa5905a-a445-43d1-b846-8cca52beb67b.png)
 
 
 ### Uso del token de autenticación
