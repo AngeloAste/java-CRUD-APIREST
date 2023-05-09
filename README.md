@@ -16,6 +16,12 @@ La generación del token de autenticación se realiza mediante una solicitud POS
  
 El cuerpo de la solicitud debe contener un objeto JSON con los campos **email** y **password**.
 
+### Usar siguiente body
+**{
+    "username": "javainuse",
+    "password": "password"
+}**
+
 La respuesta será un objeto JSON con el campo token que contiene el token de autenticación.
 
 
