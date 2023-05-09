@@ -68,6 +68,8 @@ Para obtener un usuario se debe realizar una solicitud **GET** a la siguiente UR
 
 **/api/users/{id}**
 
+![Paso-4](https://user-images.githubusercontent.com/110312875/236974674-4744e102-eee8-4958-9e45-4118ce5c623c.png)
+
 El campo **{id}** debe ser reemplazado por el ID del usuario que se desea obtener.
 
 La respuesta será un objeto JSON con los campos **id, created, modified y token**.
@@ -76,6 +78,8 @@ La respuesta será un objeto JSON con los campos **id, created, modified y token
 Para actualizar un usuario se debe realizar una solicitud **PUT** a la siguiente URL:
 
 **/api/users/{id}**
+
+![paso-7-PUT](https://user-images.githubusercontent.com/110312875/236974588-9886195d-b928-4b92-b1d5-0cc122d285cf.png)
 
 El campo **{id}** debe ser reemplazado por el ID del usuario que se desea actualizar.
 
@@ -88,6 +92,8 @@ La respuesta será un objeto JSON con los campos **id, created, modified y token
 Para eliminar un usuario se debe realizar una solicitud **DELETE** a la siguiente URL:
 
 **/api/users/{id}**
+
+![paso-8-DELETE](https://user-images.githubusercontent.com/110312875/236974614-83cf04e2-4ec7-42a6-8947-a00f2dbcdd36.png)
 
 El campo **{id}** debe ser reemplazado por el ID del usuario que se desea eliminar.
 
