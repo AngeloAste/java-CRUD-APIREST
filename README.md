@@ -15,8 +15,8 @@ Para realizar operaciones en la API es necesario incluir un token de autenticaci
 La generación del token de autenticación se realiza mediante una solicitud POST a la siguiente URL:
 
 **/auth**
+
 Generalmente se usa  http://localhost:8080/auth
-El cuerpo de la solicitud debe contener un objeto JSON con los campos **email** y **password**.
 
 **Usar siguiente body**
 
