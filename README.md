@@ -2,8 +2,7 @@
 
 ## Introducción
 
-Esta es la documentación del Servicio API REST Java (Java 11)(Spring Initializr  y IntelliJ IDEA)  JWT authentication Framework Spring Boot y Gradle,   
-en el cual se crean los endpoints correspondientes a un CRUD de usuarios comunicandose con una base de datos en memoria H2.
+Esta es la documentación del Servicio API REST Java (Java 11)(Spring Initializr  y IntelliJ IDEA)  JWT authentication Framework Spring Boot y Gradle, en el cual se crean los endpoints correspondientes a un CRUD de usuarios comunicandose con una base de datos en memoria H2.
 
 La API CRUD de usuarios permite crear, leer, actualizar y eliminar usuarios, así como también generar tokens de autenticación.
 
