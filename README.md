@@ -27,10 +27,10 @@ La generación del token de autenticación se realiza mediante una solicitud POS
     "password": "password"
 }**
 
-La respuesta será un objeto JSON con el campo token que contiene el token de autenticación.
 
 ![paso-1](https://user-images.githubusercontent.com/110312875/236974214-8aa5905a-a445-43d1-b846-8cca52beb67b.png)
 
+La respuesta será un objeto JSON con el campo token que contiene el token de autenticación.
 
 ### Uso del token de autenticación
 
