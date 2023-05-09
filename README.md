@@ -63,7 +63,7 @@ Para crear un usuario se debe realizar una solicitud **POST** a la siguiente URL
 
 El cuerpo de la solicitud debe contener un objeto JSON con los campos **email, name, password y phones**. El campo **phones** debe ser una lista de objetos JSON con el campo **number**.
 
-La respuesta será un objeto JSON con los campos **id, created, modified y token**.
+En caso de registrar correctamente la respuesta será un objeto JSON con los campos **id, created, modified y token**.
 
 ### Obtención de un usuario
 Para obtener un usuario se debe realizar una solicitud **GET** a la siguiente URL:
@@ -87,7 +87,7 @@ El campo **{id}** debe ser reemplazado por el ID del usuario que se desea actual
 
 El cuerpo de la solicitud debe contener un objeto JSON con los campos **email, name, password y phones**. El campo **phones** debe ser una lista de objetos JSON con el campo **number**.
 
-La respuesta será un objeto JSON con los campos **id, created, modified y token**.
+En caso de actualizar correctamente la respuesta será un objeto JSON con los campos **id, created, modified y token**.
 
 ### Eliminación de un usuario
 
